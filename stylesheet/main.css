@@ -1,0 +1,591 @@
+body {
+  font-family: 'Oswald', Helvetica, sans-serif;
+  margin: 0;
+}
+
+
+.banner::before {
+  content: "";
+  display: block;
+  background-color: rgba(19, 117, 189, .8);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.banner::after {
+  content: "";
+  display: block;
+  background: url(../waves.jpg);
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -2;
+}
+
+
+.waveicon {
+  background-image: url(../logo.png);
+  height: 45px;
+  width: 45px;
+  vertical-align: middle;
+  display: inline-block;
+
+
+}
+
+.toptext {
+  height: 45px;
+  max-width: 250px;
+  text-align: right;
+  display: inline-block;
+  padding: 2px;
+  margin: 1px;
+  font-size: 16px;
+  font-family: sans-serif;
+
+}
+
+.abouttext {
+  display: inline-block;
+  max-width: 250px;
+  font-family: sans-serif;
+}
+
+.middlespace {
+  height: 45px;
+  max-width: 990px;
+  margin: auto;
+}
+
+.pull-left {
+  float: left;
+}
+
+.pull-right {
+  float: right;
+  margin: 10px;
+}
+
+.searchicon {
+ background-image: url(../search.gif);
+ background-size: cover;
+ height: 14px;
+ width: 14px;
+ display: inline-block;
+}
+
+.header {
+  font-size: 40px;
+  margin: 190px;
+  color: #FFFFFF;
+  text-align: center;
+
+
+}
+
+.subheader {
+  font-size: 14px;
+  margin: -70px;
+  text-align: center;
+  color: black;
+}
+
+
+.banner {
+  position: relative;
+  height: 523px;
+}
+
+.words {
+  float: left;
+  max-width: 614px;
+  height: 980px;
+  position: relative;
+  font-size: 30px;
+
+
+}
+
+.title {
+  max-width: 614px;
+  font-size: 30px;
+}
+
+.subtitle {
+  height: 45px;
+  max-width: 300px;
+  margin: -50px;
+  margin-left: -1px;
+  padding-bottom: 20px;
+  text-align: left;
+
+}
+
+.subtitle-picture:hover::before {
+  background: url(../subtitle.jpg);
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.subtitle-picture::before {
+  content: "";
+  display: block;
+  background-color: rgba(19, 117, 189, 0.4);
+  margin: auto;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 100%;
+}
+
+
+.subtitle-picture {
+  background-image: url(../subtitle.jpeg);
+  height: 25px;
+  width: 25px;
+  background-size: cover;
+  vertical-align: text-top;
+  margin: 4px;
+  display: inline-block;
+  position: relative;
+}
+
+.subtitle-text {
+  display: inline-block;
+  color: blue;
+  font-size: 15px;
+  margin: 1px;
+  padding: 1px;
+  vertical-align: text-top;
+  max-width: 200px;
+}
+
+.subtitle-date {
+  display: inline-block;
+  color: grey;
+  font-size: 14px;
+  margin: 1px;
+  padding: 1px;
+  vertical-align: top;
+}
+
+.paragraph1 {
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  padding-top: 40px;
+  line-height: 25px;
+  color: rgba(99, 108, 115, 1);
+  font-family: sans-serif;
+}
+
+.paragraph2 {
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  padding-top: 25px;
+  line-height: 25px;
+  color: rgba(99, 108, 115, 1);
+  font-family: sans-serif;
+}
+
+.radical {
+  font-size: 27px;
+  display: block;
+  text-align: left;
+  padding-top: 25px;
+  color: blue;
+  font-family: sans-serif;
+  margin-left: 30px;
+}
+
+.paragraph3 {
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  padding-top: 25px;
+  line-height: 25px;
+  color: rgba(99, 108, 115, 1);
+  font-family: sans-serif;
+}
+
+.paragraph4 {
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  padding-top: 25px;
+  line-height: 25px;
+  color: rgba(99, 108, 115, 1);
+  font-family: sans-serif;
+}
+
+.comments {
+  background-color: grey;
+  display: inline-block;
+  color: white;
+  height: 20px;
+  background-size: cover;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+
+}
+
+.readlater {
+  background-color: grey;
+  display: inline-block;
+  color: white;
+  height: 20px;
+  background-size: cover;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+
+}
+
+.sharepost {
+  background-color: rgba(1, 107, 181, 1);
+  display: inline-block;
+  color: white;
+  height: 20px;
+  background-size: cover;
+  text-align: center;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+
+
+
+.pull-right1 {
+  float: right;
+}
+
+.head:hover::before {
+  background: url(../subtitle.jpg);
+  background-size: cover;
+  border-radius: 100%;
+}
+
+.head::before {
+  content: "";
+  display: block;
+  background-color: rgba(19, 117, 189, 0.5);
+  margin: auto;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 100%;
+}
+
+.head {
+  background-image: url(../subtitle.jpeg);
+  height: 85px;
+  width: 85px;
+  margin: 95px;
+  vertical-align: middle;
+  background-size: cover;
+  position: relative;
+}
+
+.socialmedia {
+  background-image: url(../socialmedia.jpg);
+  height: 50px;
+  max-width: 100px;
+  margin: auto;
+background-size: cover;
+  display: block;
+  vertical-align: top;
+  padding-bottom: 10px;
+
+}
+
+.adpicture:hover::before {
+  background: url(../surfpaddle.jpg);
+  background-size: cover;
+}
+
+.adpicture::before {
+content: "";
+display: block;
+background-color: rgba(19, 117, 189, .6);
+margin: auto;
+position: absolute;
+background-size: cover;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+transition: all 1s ease;
+}
+
+.adpicture {
+  background-image: url(../surfpaddle.jpg);
+  height: 300px;
+  max-width: 283px;
+  margin: auto;
+  background-size: cover;
+  display: block;
+  position: relative;
+}
+
+.adtext {
+  color: grey;
+  font-size: 15px;
+  text-align: right;
+  text-decoration: underline;
+}
+
+.sidebarheading {
+  color: blue;
+  font-size: 18px;
+  text-align: left;
+  padding-top: 35px;
+  font-family: sans-serif;
+
+}
+
+
+.head-text {
+  color: blue;
+  font-size: 20px;
+  text-align: center;
+  margin: -80px;
+  padding-bottom: 80px;
+  vertical-align: text-top;
+
+}
+
+.sidebar-container {
+  float: right;
+  height: 980px;
+  max-width: 279px;
+  color: rgba(169, 184, 196, 1);
+  font-family: sans-serif;
+  font-size: 15px;
+  line-height: 25px;
+
+}
+
+.popular {
+  height: 148px;
+  position: relative;
+  color: rgba(4, 51, 83, 1);
+  text-align: center;
+  font-size: 70px;
+  border-top: thin solid grey;
+}
+
+.body-container {
+  max-width: 975px;
+  margin: 0 auto;
+}
+
+.body-container::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.pictures {
+  height: 333px;
+  position: relative;
+  margin-left: 0px;
+}
+
+.sunsetpicture:hover::before {
+  background: url(../sunset.jpg);
+  background-size: cover;
+}
+
+.sunsetpicture::before {
+  content: "";
+  display: block;
+  background-color: rgba(19, 117, 189, .6);
+  margin: auto;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 1s ease;
+}
+
+
+.sunsetpicture {
+  background-image: url(../sunset.jpg);
+  height: 332px;
+  width: 320px;
+  display: inline-block;
+  background-size: cover;
+  position: relative;
+  margin: auto;
+  text-align: right;
+  float: left;
+  color: rgba(19, 117, 189, 0.1);
+}
+
+.drinkspicture:hover::before {
+  background: url(../drinks.jpg);
+  background-size: cover;
+
+}
+
+.drinkspicture::before {
+  content: "";
+  display: block;
+  background-color: rgba(19, 117, 189, 0.6);
+  margin: auto;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 1s ease;
+}
+
+.drinkspicture {
+  background-image: url(../drinks.jpg);
+  height: 332px;
+  width: 320px;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  margin-left: -15px;
+  color: rgba(19, 117, 189, 0.1);
+}
+
+.hangoverpicture:hover::before {
+  background: url(../hangover.jpg);
+  background-size: cover;
+}
+
+.hangoverpicture::before {
+  content: "";
+  display: block;
+  background-color: rgba(19, 117, 189, .6);
+  margin: auto;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 1s ease;
+}
+
+
+
+.hangoverpicture {
+  background-image: url(../hangover.jpg);
+  height: 332px;
+  width: 320px;
+  display: inline-block;
+  position: relative;
+  background-size: cover;
+  margin-left: -15px;
+  color: rgba(19, 117, 189, .1)
+}
+
+.barpicture:hover::before {
+  background: url(../bar.jpg);
+  background-size: cover;
+}
+
+.barpicture::before {
+  content: "";
+  display: block;
+  background-color: rgba(19, 117, 189, .6);
+  margin: auto;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transition: all 1s; ease;
+}
+
+.barpicture {
+  background-image: url(../bar.jpg);
+  height: 332px;
+  width: 345px;
+  display: inline-block;
+position: absolute;
+  background-size: cover;
+  float: right;
+  text-align: center;
+margin-right: 31px;
+}
+
+.footer::before {
+  content: "";
+  display: block;
+  background-color: rgba(19, 117, 189, 0.3);
+  margin: auto;
+  position: absolute;
+  background-size: cover;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+
+.footer {
+  height: 97px;
+  position: relative;
+  background-color: rgba(4, 51, 83, 1);
+  margin-top: -10px;
+  position: relative;
+}
+
+.ironyardlogo {
+  background-image: url(../ironyard.png);
+  height: 65px;
+  width: 65px;
+  background-size: cover;
+  margin-left: 160px;
+  margin-top: 12px;
+  float: left;
+  vertical-align: middle;
+  font-size: 13px;
+  color: white;
+  display: inline-block;
+
+}
+
+.footertext {
+  color: white;
+  display: inline-block;
+  margin: auto;
+  text-align: right;
+  margin-top: 25px;
+  padding: 10px;
+
+}
+
+.footernav {
+  color: white;
+  display: inline-block;
+  text-align: right;
+  margin-left: 300px;
+  font-family: sans-serif;
+}
